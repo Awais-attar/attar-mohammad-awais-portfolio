@@ -19,13 +19,13 @@ export const profile = {
 
   phone: "+91 9515339926",
 
-  email: "awaismca22@gmail.com",
+  email: "attarmohammadawais05@gmail.com",
 
-  linkedin: "https://linkedin.com/in/",
+  linkedin: "https://www.linkedin.com/in/attarmohammadawais/",
 
-  github: "https://github.com/",
+  github: "https://github.com/Awais-attar",
 
-  behance: "https://behance.net/",
+  behance: "https://www.behance.net/attarawais",
 
   photo: "/assets/profile.jpg",
 
@@ -37,7 +37,7 @@ export const stats = [
   {
     label: "Projects Completed",
     value: 5,
-    suffix: "",
+    suffix: "+",
   },
   {
     label: "Internships",
