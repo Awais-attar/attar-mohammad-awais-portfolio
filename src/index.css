@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+html,
+body {
+  background-color: #f6f7fb;
+  color: #12131a;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: #4f46e5;
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f6f7fb;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #4f46e5, #06b6d4);
+  border-radius: 999px;
+}
+
+:focus-visible {
+  outline: 2px solid #4f46e5;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/60;
+  }
+
+  .card-surface {
+    @apply bg-surface border border-border rounded-3xl shadow-card transition-all duration-500 hover:shadow-card-hover hover:-translate-y-1;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo via-violet to-cyan;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-white bg-gradient-to-r from-indigo via-royal to-violet bg-[length:200%_200%] shadow-glow transition-all duration-500 hover:bg-right hover:-translate-y-0.5 hover:shadow-xl;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-ink border border-border bg-white/80 backdrop-blur transition-all duration-300 hover:border-indigo hover:text-indigo hover:-translate-y-0.5;
+  }
+
+  .eyebrow {
+    @apply font-mono text-xs tracking-[0.25em] uppercase text-indigo font-medium;
+  }
+
+  .section-pad {
+    @apply px-6 sm:px-10 lg:px-24 py-24 sm:py-32;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
