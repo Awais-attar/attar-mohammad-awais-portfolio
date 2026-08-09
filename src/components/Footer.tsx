@@ -4,7 +4,7 @@ import { profile } from "../data/resume";
 
 export default function Footer() {
   return (
-    <footer className="relative border-t border-white/10 bg-slate-950 text-white py-10">
+   <footer className="relative border-t border-violet-500/20 bg-[#17132B] text-white py-10">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Brand */}
