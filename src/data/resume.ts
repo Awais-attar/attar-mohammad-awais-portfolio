@@ -59,7 +59,7 @@ export const stats = [
 
 export const skillCategories = [
   {
-    title: "Programming Languages",
+    title: "Programming Languages & Web",
     icon: "code",
     skills: [
       "Python",
@@ -79,7 +79,6 @@ export const skillCategories = [
       "Flask",
       "REST APIs",
       "Bootstrap",
-      "Tailwind CSS",
     ],
   },
 
@@ -113,7 +112,6 @@ export const skillCategories = [
       "VS Code",
       "Power BI",
       "Excel",
-      "Postman",
       "Jupyter Notebook",
     ],
   },
