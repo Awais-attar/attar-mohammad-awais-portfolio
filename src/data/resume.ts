@@ -30,7 +30,7 @@ export const profile = {
   photo: "/assets/profile.jpg",
 
   summary:
-    "MCA graduate with hands-on experience in Python, Java, Flask, REST APIs, SQL, HTML, CSS, JavaScript, Git, and Power BI. I've developed web applications and completed internships in Python Full Stack Development and Data Visualization, gaining practical experience in software development, database management, testing, and data analysis. I'm motivated to apply my technical skills, contribute to real software projects, and continuously learn and adapt to modern technologies.",
+    "MCA graduate with hands-on experience in Python, Java, Flask, SQL, HTML, CSS, JavaScript, Git, and Power BI. I've developed web applications and completed internships in Python Full Stack Development and Data Visualization, gaining practical experience in software development, database management, testing, and data analysis. I'm motivated to apply my technical skills, contribute to real software projects, and continuously learn and adapt to modern technologies.",
 };
 
 export const stats = [
@@ -384,7 +384,7 @@ export const certifications = [
   },
 
   {
-    title: "Soft Skills & Professional Communication",
+    title: "Soft Skills",
     issuer: "TCS-iON",
   },
 ];
