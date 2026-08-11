@@ -52,7 +52,7 @@ export const stats = [
   },
   {
     label: "Technologies",
-    value: 25,
+    value: 20,
     suffix: "+",
   },
 ];
