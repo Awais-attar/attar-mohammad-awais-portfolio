@@ -195,7 +195,7 @@ export const projects = [
     "CSS",
   ],
   gradient: "from-cyan via-blue to-indigo",
-  live: "YOUR_RENDER_URL",
+  live: "https://face-detection-tnec.onrender.com/",
   github: "https://github.com/Awais-attar/face-detection",
 },
 
