@@ -175,6 +175,29 @@ export const projects = [
     live: "https://student-management-system-x65t.onrender.com/",
     github: "https://github.com/Awais-attar/student-management-system",
   },
+  {
+  title: "Eye & Mouth Detection",
+  description:
+    "A real-time facial analysis application that detects eye blinks and mouth movements using Python, Flask, OpenCV, and MediaPipe.",
+  highlights: [
+    "Real-time face and facial landmark detection",
+    "Eye open/closed detection and blink counting",
+    "Mouth open/closed detection and mouth open counting",
+    "Real-time EAR, MAR, and FPS measurements",
+  ],
+  tech: [
+    "Python",
+    "Flask",
+    "OpenCV",
+    "MediaPipe",
+    "JavaScript",
+    "HTML",
+    "CSS",
+  ],
+  gradient: "from-cyan via-blue to-indigo",
+  live: "YOUR_RENDER_URL",
+  github: "https://github.com/Awais-attar/face-detection",
+},
 
   {
     title: "Karnataka & Punjab Election Dashboard",
