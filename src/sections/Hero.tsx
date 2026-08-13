@@ -52,7 +52,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="eyebrow mb-6 px-4 py-1.5 rounded-full glass"
         >
-          Open to Software Engineering Roles
+          Open to IT Roles
         </motion.span>
 
         <motion.h1
