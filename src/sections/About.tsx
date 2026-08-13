@@ -80,7 +80,7 @@ export default function About() {
                 className="absolute -right-4 -top-4 glass rounded-2xl px-4 py-3 shadow-glass hidden sm:block"
               >
                 <p className="text-xs font-mono text-ink-soft">
-                  Currently
+                  Graduate
                 </p>
 
                 <p className="text-sm font-semibold text-emerald">
