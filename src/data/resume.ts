@@ -227,6 +227,22 @@ export const projects = [
     live: "https://github.com/Awais-attar/ElectViz_Karnataka_And_Punjab_Election",
     github: "https://github.com/Awais-attar/ElectViz_Karnataka_And_Punjab_Election",
   },
+  {
+  title: "VoiceFlow",
+  description:
+    "A modern speech-to-text and text-to-speech web application with real-time transcription, transcript analytics, structured script generation, and customizable voice controls.",
+  technologies: [
+    "React",
+    "JavaScript",
+    "Vite",
+    "Python",
+    "Flask",
+    "Web Speech API",
+    "CSS",
+  ],
+  github:
+    "https://github.com/Awais-attar/Voice_Text_Converter/tree/enhance-project",
+},
 
   {
     title: "Manual Testing Project — AIVOA AI Platform",
