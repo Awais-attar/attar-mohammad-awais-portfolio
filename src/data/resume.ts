@@ -227,11 +227,23 @@ export const projects = [
     live: "https://github.com/Awais-attar/ElectViz_Karnataka_And_Punjab_Election",
     github: "https://github.com/Awais-attar/ElectViz_Karnataka_And_Punjab_Election",
   },
-  {
+ {
   title: "VoiceFlow",
+
   description:
     "A modern speech-to-text and text-to-speech web application with real-time transcription, transcript analytics, structured script generation, and customizable voice controls.",
-  technologies: [
+
+  highlights: [
+    "Real-time speech recognition and live transcription",
+    "Speech recognition confidence and word count analytics",
+    "Transcript history, copy, download, and text-to-speech",
+    "Structured script generation with introduction, content, and conclusion",
+    "Adjustable speech speed and pitch with voice preview",
+    "Pause, resume, and stop speech controls",
+    "Responsive glassmorphism AI-style interface",
+  ],
+
+  tech: [
     "React",
     "JavaScript",
     "Vite",
@@ -240,6 +252,10 @@ export const projects = [
     "Web Speech API",
     "CSS",
   ],
+
+  gradient: "from-indigo via-violet to-cyan",
+
+  live: "",
   github:
     "https://github.com/Awais-attar/Voice_Text_Converter/tree/enhance-project",
 },
