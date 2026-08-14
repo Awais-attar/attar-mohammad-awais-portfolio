@@ -198,36 +198,7 @@ export const projects = [
   live: "https://face-detection-tnec.onrender.com/",
   github: "https://github.com/Awais-attar/face-detection",
 },
-
   {
-    title: "Karnataka & Punjab Election Dashboard",
-
-    description:
-      "An interactive Power BI dashboard built on 5,000+ election records from Karnataka and Punjab, analyzing voter turnout, candidate performance, and constituency-level trends — validated with AI tools.",
-
-    highlights: [
-      "5,000+ records from India Votes & ECI",
-      "Power Query automation cut prep time by 50%",
-      "DAX measures & KPI cards",
-      "Validated using ChatGPT & Gemini AI",
-    ],
-
-    tech: [
-      "Power BI",
-      "Excel",
-      "Power Query",
-      "DAX",
-      "Gemini AI",
-      "ChatGPT",
-    ],
-
-    gradient: "from-violet via-indigo to-royal",
-
-    // Add your actual project URLs here.
-    live: "https://github.com/Awais-attar/ElectViz_Karnataka_And_Punjab_Election",
-    github: "https://github.com/Awais-attar/ElectViz_Karnataka_And_Punjab_Election",
-  },
- {
   title: "VoiceFlow",
 
   description:
@@ -260,6 +231,35 @@ export const projects = [
     "https://github.com/Awais-attar/Voice_Text_Converter/tree/enhance-project",
 },
 
+
+  {
+    title: "Karnataka & Punjab Election Dashboard",
+
+    description:
+      "An interactive Power BI dashboard built on 5,000+ election records from Karnataka and Punjab, analyzing voter turnout, candidate performance, and constituency-level trends — validated with AI tools.",
+
+    highlights: [
+      "5,000+ records from India Votes & ECI",
+      "Power Query automation cut prep time by 50%",
+      "DAX measures & KPI cards",
+      "Validated using ChatGPT & Gemini AI",
+    ],
+
+    tech: [
+      "Power BI",
+      "Excel",
+      "Power Query",
+      "DAX",
+      "Gemini AI",
+      "ChatGPT",
+    ],
+
+    gradient: "from-violet via-indigo to-royal",
+
+    // Add your actual project URLs here.
+    live: "https://github.com/Awais-attar/ElectViz_Karnataka_And_Punjab_Election",
+    github: "https://github.com/Awais-attar/ElectViz_Karnataka_And_Punjab_Election",
+  },
   {
     title: "Manual Testing Project — AIVOA AI Platform",
 
