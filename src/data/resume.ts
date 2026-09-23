@@ -46,7 +46,7 @@ export const stats = [
   },
   {
     label: "CGPA (MCA)",
-    value: 8.39,
+    value: 8.55,
     suffix: "",
     decimals: 2,
   },
