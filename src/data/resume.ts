@@ -161,6 +161,37 @@ export const skillCategories = [
 
 export const projects = [
   {
+  title: "IT Service Request Management System",
+
+  description:
+    "A Salesforce-based IT Service Request Management System that allows employees to submit service requests, automatically assigns an IT Support Member, tracks request status, and manages responses and resolutions.",
+
+  highlights: [
+    "Employee service request submission using Lightning Web Components",
+    "Automatic IT Support Member assignment using Apex Trigger",
+    "Status workflow: Assigned, In Progress, Resolved, and Closed",
+    "Apex Controller for creating and retrieving service requests",
+    "Employee request history with status and resolution viewing",
+    "Tested the complete workflow manually with AI-assisted development",
+  ],
+
+  tech: [
+    "Salesforce",
+    "Apex",
+    "Apex Triggers",
+    "SOQL",
+    "Lightning Web Components",
+    "Custom Objects",
+    "Lightning App Builder",
+    "Salesforce CLI",
+  ],
+
+  gradient: "from-blue via-indigo to-cyan",
+
+  live: "",
+  github: "",
+},
+  {
     title: "Student Management System",
 
     description:
