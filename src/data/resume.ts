@@ -188,7 +188,7 @@ export const projects = [
 
   gradient: "from-blue via-indigo to-cyan",
     
-  Demo: "https://drive.google.com/file/d/1_-vTGwpzCRvHZuNV2P7q247mzVcEUScP/view?usp=drive_link",
+  live: "https://drive.google.com/file/d/1_-vTGwpzCRvHZuNV2P7q247mzVcEUScP/view?usp=drive_link",
 },
   {
     title: "Student Management System",
