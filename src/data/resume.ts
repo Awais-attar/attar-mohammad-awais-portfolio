@@ -117,6 +117,22 @@ export const skillCategories = [
   },
 
   {
+  title: "Salesforce Development",
+  icon: "layers",
+  skills: [
+    "Salesforce",
+    "Apex",
+    "Apex Triggers",
+    "SOQL",
+    "Lightning Web Components (LWC)",
+    "Custom Objects",
+    "Lookup Relationships",
+    "Lightning App Builder",
+    "Salesforce CLI",
+  ],
+},
+
+  {
     title: "AI Tools",
     icon: "cpu",
     skills: [
